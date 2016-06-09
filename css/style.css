@@ -1,15 +1,47 @@
 /* Navigation */
 
-.top-nav {
-	background-color: #fff;
+.links {
+	float: right;
 }
 
-.top-nav > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
+.links li {
+	display: inline;
+	margin-left: 15px;
 }
 
 .logo{
 	width: 26px;
 }
+
+.top-nav {
+	background-color: #fff;	
+}
+
+.top-nav a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: .03em;
+	-webkit-font-smoothing: antialiased;	
+	text-decoration: none;
+}
+
+.top-nav a:hover{
+	color:  #333333;
+	transition: .5s ease;
+}
+
+.top-nav > .content {
+	max-width: 970px;
+	height: 70px;
+	margin: 0 auto;	
+	padding: 0px 15px;
+}
+
+a.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+
+/* END Navigation */
