@@ -1,7 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /* Navigation */
 
 .links {
 	float: right;
+	margin-top: 1.5rem;
 }
 
 .links li {
@@ -11,19 +18,23 @@
 
 .logo{
 	width: 26px;
+	margin-top: .9rem
 }
 
 .top-nav {
 	background-color: #fff;	
+	position: fixed;
+	width: 100%;
 }
 
 .top-nav a{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
-	letter-spacing: .03em;
+	letter-spacing: .03rem;
 	-webkit-font-smoothing: antialiased;	
 	text-decoration: none;
+
 }
 
 .top-nav a:hover{
@@ -31,7 +42,7 @@
 	transition: .5s ease;
 }
 
-.top-nav > .content {
+.content {
 	max-width: 970px;
 	height: 70px;
 	margin: 0 auto;	
@@ -45,3 +56,42 @@ a.active {
 
 
 /* END Navigation */
+
+/* Masthead */
+
+.masthead {
+	background-image: url("../images/first-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+   height: 45.938rem;
+}
+
+.masthead h1, .masthead h3 {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+}
+
+.masthead h1 {
+	margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+.masthead h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+button {
+	padding: 15px 8%;
+	background-color: darkorange;
+	color:white;
+	border: none;
+	border-radius: 5px;
+}
+
+.buttons {
+	text-align: center;
+}
