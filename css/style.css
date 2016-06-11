@@ -20,9 +20,8 @@ body {
 /* Navigation */
 
 .links {
-	float: right;
-	
-	 font-size: 1.04rem;
+	float: right;	
+	font-size: 1.04rem;
     margin-top: 1.7rem;
 }
 
@@ -103,15 +102,15 @@ a.active {
 /* Cases (3 pic) */
 
 section.cases {
-	background: red;
-	background-size: cover;
-	min-height: 10em;
+	background: whitesmoke;
+	height: 40.938rem;
+	overflow:auto;
 }
 .cases {
 	text-align: center;
 	}
 .cases h1{
-	margin: 3.175em 0 1.375em 0;
+	margin: 5.175em 0 3.375em 0;
 	font-weight: lighter;
 }
 .cases img {
@@ -120,7 +119,11 @@ section.cases {
 }
 .cases li{
 	display: inline-block;	
-	padding: 0 4em;
+	margin: 0 4em;
+}
+.cases h3 {
+	letter-spacing: .03em;
+	font-weight: 400;
 }
 
 
@@ -153,4 +156,6 @@ button:hover {
     margin-top: 1.563rem;
     display: block;
 
+}
+hr {
 }
