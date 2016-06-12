@@ -102,7 +102,6 @@ a.active {
 /* Cases (3 pic) */
 
 section.cases {
-	background: whitesmoke;
 	height: 40.938rem;
 	overflow:auto;
 }
@@ -130,6 +129,32 @@ section.cases {
 
 /* End Cases */
 
+/* Footer */
+
+footer {
+	text-align: center;
+}
+i {
+	color: #4099FF;
+	height: 20px;
+	width: 20px;
+}
+footer li {
+	display: inline-block;
+	margin: .8em .5em;
+}
+
+hr {
+	border: 1px lightgrey solid;
+	margin: 1.375em ;
+}
+
+.social > li{
+	border: 1px black solid;
+	border-radius: 100%;
+	padding: 5px;
+	}
+
 /*Buttons*/
 
 button {
@@ -156,6 +181,4 @@ button:hover {
     margin-top: 1.563rem;
     display: block;
 
-}
-hr {
 }
